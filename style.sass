@@ -1,0 +1,140 @@
+// Import
+@import 'assets/reset'
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900')
+
+// Print
+@media print
+	.no-print
+		display: none
+
+
+// Style
+body
+	font-family: 'Source Sans Pro', sans-serif
+	font-style: normal
+	font-size: 16px
+	line-height: 1.2em
+.container
+	max-width: 960px
+	margin: 0 auto	
+.container-sm
+	max-width: 633px
+	margin: 0 auto
+.spacer
+	margin: 50px auto
+header
+	display: flex
+	align-items: center
+	padding: 50px 0
+	nav, .logo, .social
+		flex: 1
+	nav
+		a
+			text-decoration: none
+			margin-left: 20px
+			color: #999
+		.active
+			color: #333
+	.logo
+		font-size: 2.4rem
+		line-height: 0.9em
+		font-weight: 900
+		text-align: center
+		small
+			display: block
+			font:
+				weight: 400
+				size: 1rem
+	.social
+		text-align: right
+		li
+			display: inline-block
+			a
+				color: #999
+				text-decoration: none
+				margin-left: 20px
+			.button
+				border: solid 1px #ccc
+				padding: 7px 20px
+				color: #333
+.lg
+	font:
+		weight: 900
+		size: 4rem
+	line-height: 1.2em				
+.hero-image
+	height: 400px
+	background: #eee
+	margin: 0 auto
+	background:
+		image: url('assets/img/mariana.png')
+		attachment: fixed
+		size: cover
+		position: top center
+.grey
+	background: #f4f4f4
+
+h2
+	padding: 50px 0
+	font:
+		size: 2rem	
+
+.col2
+	li
+		overflow: hidden
+		padding-bottom: 50px
+		+ li
+			border-top: solid 1px #e8e8e8
+			padding-top: 50px
+		div
+			float: left
+		.label
+			text-transform: uppercase
+			width: 30%
+			font: 
+				weight: 600	
+				size: 0.8rem	
+		.content
+			width: 70%
+
+.bubble
+	display: inline-block
+	background: #e8e8e8
+	padding: 5px 15px
+	border-radius: 15px	
+	margin-bottom: 5px		
+	font-size: 0.8rem
+.exp-block
+	width: 100%
+	+ .exp-block
+		margin-top: 50px
+	.clear
+		overflow: hidden
+		width: 100%
+		margin-bottom: 20px
+	.avatar
+		width: 40px	
+		height: 40px
+		float: left	
+		border: solid 1px #e8e8e8
+		border-radius: 50%
+		margin-right: 10px
+	.avatar-r
+		width: 40px	
+		height: 40px
+		float: right	
+		// border: solid 1px #e8e8e8
+		// border-radius: 50%
+	.info
+		float: left
+		p + p
+			color: #999
+	.time-frame
+		float: right
+
+	h3
+		margin-top: 20px
+		font-weight: 900
+
+
+
