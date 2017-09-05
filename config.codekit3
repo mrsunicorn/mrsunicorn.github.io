@@ -124,6 +124,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -168,7 +174,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 525066120,
-	"displayValue": "mana-site",
+	"displayValue": "mrsunicorn.github.io",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-kanye"
 	},
